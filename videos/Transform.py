@@ -32,5 +32,8 @@ cv.imshow('rotated',rotated)
 #1-->flip horizontally
 #-1-->flip both vertically and horizontally
 flip=cv.flip(resize_img,1)
+#1-->flip horizontally
+#0-->flip vertically
+#-1-->flip both vertically and horizontally
 cv.imshow('flip',flip)
 cv.waitKey(0)
