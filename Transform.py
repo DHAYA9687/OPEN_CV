@@ -1,7 +1,7 @@
 import cv2 as cv
 import numpy as np
 #read the image
-img=cv.imread('../photos/D.photo.jpg')
+img=cv.imread('./photos/D.photo.jpg')
 cv.imshow('Dhaya',img)
 # resize the image 
 resize_img = cv.resize(img,(500,500),interpolation=cv.INTER_LINEAR)

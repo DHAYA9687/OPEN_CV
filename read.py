@@ -1,7 +1,7 @@
 import cv2 as cv
 
 #read the image
-img=cv.imread('../photos/D.photo.jpg')
+img=cv.imread('./photos/D.photo.jpg')
 
 #resize the video
 def rescaleFrame(frame,scale=0.75):

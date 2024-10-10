@@ -1,7 +1,7 @@
 import cv2 as cv
 import numpy as np
 import matplotlib.pyplot as plt
-img=cv.imread('../photos/cat.jpeg')
+img=cv.imread('./photos/cat.jpeg')
 resized_img=cv.resize(img,(500,500),interpolation=cv.INTER_AREA)
 #gray image
 gray=cv.cvtColor(resized_img,cv.COLOR_BGR2GRAY)

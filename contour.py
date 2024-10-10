@@ -1,6 +1,6 @@
 import cv2 as cv
 import numpy as np
-img=cv.imread('../photos/cat.jpeg')
+img=cv.imread('./photos/cat.jpeg')
 resized_img=cv.resize(img,(500,500),interpolation=cv.INTER_AREA)
 #blank image 
 blank=np.zeros((500,500,3),dtype='uint8')
