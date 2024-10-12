@@ -21,6 +21,7 @@ cv.imshow('luv',luv)
 #BGR to HLS
 hls=cv.cvtColor(resized_img,cv.COLOR_BGR2HLS)
 cv.imshow('hls',hls)
+cv.imwrite('hls.jpg',hls)
 #BGR to XYZ
 xyz=cv.cvtColor(resized_img,cv.COLOR_BGR2XYZ)
 cv.imshow('xyz',xyz)
